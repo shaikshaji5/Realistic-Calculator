@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="/calccss.css">
+    <script src="/calcjs.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.cdnfonts.com/css/calculator" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<!-- https://www.fontspace.com/pixeloid-font-f69232 -->
+<link rel="stylesheet" href="https://www.fontspace.com/pixeloid-font-f69232">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body onload="clickbtn()">
+    <h1>Basic calculator</h1>
+    <div class="calcBody">
+        <div id="topBody">
+            <div id="screen" value="a"></div>
+            <span id="brand"> <p style="font-family: 'Pacifico', cursive;">Shaji</p> 
+                <!-- <p>12123234</p> -->
+            </span>
+           <div id="result"> Result:
+            </div>
+        </div>
+        <div id="bottomBody">
+            <div  id="number">
+            <div class="calcno" id="7" onclick="store('7')">7</div>
+            <div class="calcno" id="8" onclick="store('8')">8</div>
+            <div class="calcno" id="9" onclick="store('9')">9</div>
+            <div class="calcno" onclick="store('+')" id="plus">
+                <img src="/icons/plus.png" alt="plus">
+            </div>
+            <div class="calcno" id="4" onclick="store('4')">4</div>
+            <div class="calcno" id="5" onclick="store('5')">5</div>
+            <div class="calcno" id="6" onclick="store('6')">6</div>
+            <div class="calcno" onclick="store('-')" id="minus">
+                <img src="/icons/minus.png" alt="minus">
+            </div>
+
+
+
+            <div class="calcno" id="1" onclick="store('1')">1</div>
+            <div class="calcno" id="2" onclick="store('2')">2</div>
+            <div class="calcno" id="3" onclick="store('3')">3</div>
+            <div class="calcno" id="product" onclick="store('x')">
+                <img src="/icons/multiply.png"  alt="product">
+            </div>
+
+            
+
+            <div class="calcno" id="0" onclick="store('0')">0</div>
+            <div class="calcno" id="00" onclick="store('00')">00</div>
+            <div class="calcno" id="dot" onclick="store('.')">.</div>
+            <div class="calcno" id="division" onclick="store('/')">
+                <img src="/icons/divide.png" alt="division"></div>
+
+                <div class="calcno" id="clr" onclick="store('c')">clr</div>
+            <div class="calcno" id="percentage" onclick="store('%')">%</div>
+            <!-- <div class="calcno" id="do">.</div> -->
+            <div class="calcno" id="enter" onclick="calc('e')">Enter</div>
+    
+            </div>
+
+
+            </div>
+
+
+        </div>
+    </div>
+</body>
+</html>
