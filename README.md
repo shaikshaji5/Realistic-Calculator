@@ -7,6 +7,6 @@ features:
               1+2-2*3+1...... will not produce any output, because this is a basic calculator
         2)3D like realistic buttons which are made using CSS 
 If you like my work,make me happy by connecting in linkedin
-linkedin profile link:  https://www.linkedin.com/in/shajidhussain/
+, profile link:  https://www.linkedin.com/in/shajidhussain/
         
              
